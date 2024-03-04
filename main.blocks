@@ -1,0 +1,103 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="ULfb$aP-,s+;^:Cn|]3I" x="470" y="-460"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="music_stop_all_sounds" id="Ux)=RuOVxBNIn0)%p5_v"></block></statement></block><block type="device_button_event" id="za0C.wY_lyHErsREKK.Z" x="203" y="-330"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="synth_set_volume" id="S@(}U|:1ot|OG+sz8$}$"><value name="volume"><shadow type="math_number_minmax" id="WCl,w$fSv__b$s%9?C=a"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="music_playable_play" id="G]?=R)p{DLe+2sX%yX/R"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="soundExpression_createSoundExpression" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Curve</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"duration\":9999,\"startFrequency\":1,\"endFrequency\":1625.8746858661355,\"startVolume\":255,\"endVolume\":255,\"wave\":\"sine\",\"interpolation\":\"curve\",\"effect\":\"none\"}"}}</data><value name="startFrequency"><shadow type="math_number_minmax"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">1626</field></shadow></value><value name="duration"><shadow type="math_number_minmax"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">9999</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></shadow><block type="soundExpression_createSoundExpression" id="5t.+9/mDrxpRC3cp2;Sw" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.Tremolo</field><field name="interpolation">InterpolationCurve.Curve</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"duration\":9999,\"startFrequency\":5000,\"endFrequency\":5000,\"startVolume\":255,\"endVolume\":255,\"wave\":\"sine\",\"interpolation\":\"curve\",\"effect\":\"tremolo\"}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="aMI9{M@qH`tSd~SK:smY"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="3WpTx{{Bxu]0$FOik||d"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="qooO1l?V5A1BMS{:,.8S"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">9999</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="_752SE#rnO!mgdW*qI{T"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id=":t2`F4,pKD}rvMwXcQo9"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></value><next><block type="device_show_leds" id="0Y6ukMSkl(8:%BxS]Mr-"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="udHuE@5W*4Q?F%3}w0R."><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        . # . # . 
+        # # # # . 
+        . . . # .
+        `</field><next><block type="device_show_leds" id="utMe:L_l]H;w#s?Zu;d/"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="vCKg.wvN*6w,z|tfxIR="><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="k.PpzL}/?/=a-Ck96w|`"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="qNm#.W`kh(jpTC/52-8R"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="basic_show_icon" id="Iz|Mn=yWL6kiPR?_S{Dg"><field name="i">IconNames.Square</field><next><block type="basic_show_icon" id="v?2pk:`z8K=v6xw`9a4G"><field name="i">IconNames.Diamond</field><next><block type="basic_show_icon" id="(?(L^H/#Au|?_6g./]hY"><field name="i">IconNames.SmallDiamond</field><next><block type="device_show_leds" id="OQw(.$2phI(Evh{8!:#C"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_print_message" id="Z:FKv0BW+D6Ivmp8Y{F{"><value name="text"><shadow type="text" id="}P-NU/@iCv3jLmPzo!qs"><field name="TEXT">Game Over</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="LCnT,}!3eci,k:D+T4S!" x="552" y="-100"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="synth_set_volume" id="`EEH35j=#rkUPX#6Db(R"><value name="volume"><shadow type="math_number_minmax" id="7__O2t0S_3yFPc7L?;`H"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_show_leds" id="b0A4_dD,~`E?Rh=4*ExP"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="V-5Ry@oZa#LOPAO^zXs7"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        . # . # . 
+        # # # # . 
+        . . . # .
+        `</field><next><block type="device_show_leds" id="eE}yLSFCk6ck.FG+4]aD"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="fc;ggya.3l9e..LiE+MN"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="h6BuW[HED?%Hz*t;7*]}"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_print_message" id="A3(xcp$1*],a(EqczbZ:"><value name="text"><shadow type="text" id="YqWl;[c=:{oo!S}SZmEt"><field name="TEXT">ERROR</field></shadow></value><next><block type="music_playable_play" id="{kv34k^(X[D2(yq/:r:0"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_tone_playable" id="uxyDg+f%a6`K396Y5dk%"><value name="note"><shadow type="device_note" id="#ANz,_OxYuWEzhnGpsJA"><field name="name">988</field></shadow></value><value name="duration"><shadow type="device_beat" id="p^3jL^A;dQBV|Z_Jn3q?"><field name="fraction">BeatFraction.Breve</field></shadow></value></shadow></value><next><block type="music_playable_play" id="iuIETkEz8gEuvLZ`(aYt"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="soundExpression_createSoundExpression" id="#fTw=9VsL{}3nNPG0!Bd" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><value name="startFrequency"><shadow type="math_number_minmax" id="v+KV+SC,^aDLIa-B]_d:"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="sgx`)viC3|4v!IBze_J~"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="EP_C@-h{@q+{WsYY+F=="><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">500</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="z^wS[g_@)R#KJjUf;,QX"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="8n*lIv{{a)0F=(yM~-tr"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></shadow></value><next><block type="basic_show_icon" id="J$x09ZgG2ixYNPCOxt{*"><field name="i">IconNames.Ghost</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="HyL{.`])[g9U5rX2,),b" x="0" y="0"></block><block type="pxt-on-start" id="/-s8KQ{X|X`]XLMG7h*k" x="74" y="213"><statement name="HANDLER"><block type="device_show_leds" id="=eV%fXE$JtFNC@da)~Im"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="CsWRh_y|k=dF3L/7??Tc"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=":00q)}{%[3!kZ3iCV.A`"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="PQOV@f@d[e/lWT#d!.R}"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="F(SwwY8#F-YudU2X+dj-"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="$)oDO|s.X2=?RoJ%Y]F9" x="380" y="869"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="jNdwTBe@M#A~kvLN,G5?"><field name="i">IconNames.Skull</field></block></statement></block><block type="device_gesture_event" id="aH`xpNga@tHy%fQDqKF#" x="417" y="1171"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="basic_show_icon" id="#zDDbkoI4[+T+n53Xpk]"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_gesture_event" id="xZxxkT`NrE@Y^}}~#1nV" x="458" y="1403"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="basic_show_icon" id="tQc1rg:t=R*EE!;ve[fG"><field name="i">IconNames.Sad</field></block></statement></block></xml>
